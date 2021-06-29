@@ -29,7 +29,7 @@ for j in range(0,n):
     sum = sum + num[j] #melakukan looping dengan menambahkan semua nilai yang ada pada list
     
 average = sum/len(num)  #menginisasi nilai rata-rata = jumlah/banyak data
-print("\nNilai Rata-rata dari bilangan =", average)
+print("\nNilai rata-rata dari bilangan =", average)
 
 if(len(num) % 2 == 0):
     idx1 = len(num)//2  #menghitung index pertama
